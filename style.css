@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url('/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+    }
+
+    section {
+        height: 100%;
+        width: 50%;
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    .header {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header h1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+    }
+
+    .header p {
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        border-right: 3px solid #ddd;
+        padding-right: 1%;
+    }
+
+    .contact {
+        width: 100%;
+        border-bottom: 3px solid #ddd;
+        padding: 1%;
+    }
+
+    .contact div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2.5%;
+        margin-top: 3%;
+    }
+
+    .contact div:hover i {
+        background: chartreuse;
+    }
+
+    .contact div i {
+        width: 30px;
+        height: 30px;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact div p {
+        font-size: 0.75rem;
+        font-family: 'Courier New', Courier, monospace;
+        width: 85%;
+        
+    }
+
+    .contact div p a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .education {
+        width: 100%;
+        border-bottom: 3px solid #ddd;
+    }
+
+    .education .title {
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 1%;
+    }
+
+    .education div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .education div h1 {
+        font-size: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: right;
+        width: 100%;
+        line-height: 1.2;
+        font-weight: bold;
+        margin-top: 2%;
+    }
+
+    .education div h3 {
+        font-size: 0.7rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: right;
+        width: 100%;
+        line-height: 1.2;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+    .education div p {
+        font-size: 0.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: right;
+        width: 100%;
+        line-height: 1.2;
+        font-weight: 300;
+        margin-top: 2%;
+    }
+
+    .skills {
+        width: 100%;
+        border-bottom: 3px solid #ddd;
+    }
+
+    .skills .title {
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 1%;
+    }
+
+    .skills ul {
+        list-style-type: none;
+    }
+
+    .skills ul li {
+        text-align: right;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-weight: 700;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+
+    .skills ul li:hover {
+        opacity: 0.5;
+    }
+
+    .skills:hover ul li {
+      transform: translateX(-1%);
+      transition: transform 2s;
+      text-align: center;
+    }
+
+    .other-links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other-links .title {
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 1%;
+    }
+
+    .other-links a {
+        display: block;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        text-align: right;
+    }
+    .other-links:hover a {
+        transform: translateX(-1%);
+      transition: transform 2s;
+      text-align: center;
+    }
+
+    .other-links a:hover {
+        opacity: 0.7;
+    }
+
+    main {
+        width: 63%;
+        background: #ddd;
+        padding: 2%;
+    }
+
+    .professional-profile {
+        width: 100%;
+    }
+
+    .professional-profile h1 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 1.2rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 1%;
+        text-transform: uppercase;
+    }
+
+    .professional-profile p {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 2%;
+        line-height: 1.5;
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .experience h1 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 1.2rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 3%;
+        text-transform: uppercase;
+    }
+
+    .experience div {
+        width: 100%;
+    }
+
+    .experience div h2 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 3%;
+        text-transform: uppercase;
+    }
+
+    .experience div h3 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 0.9rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 2%;
+        text-transform: uppercase;
+    }
+
+    .experience div p {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 2%;
+        line-height: 1.5;
+    }
+    
+    @media only screen and (max-width: 1024px) {
+        section {
+            width: 70%;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        html {
+            font-size: 12px;
+        }
+        section {
+            width: 90%;
+        }
+        .header {
+            height: 100px;
+        }
+    
+        .header h1 {
+            font-size: 1.5rem;
+        }
+        .header p {
+            font-size: 0.8rem;
+            margin-top: 3%;
+        }
+    
+        .contact div:hover i {
+            background: chartreuse;
+        }
+    
+        .contact div i {
+            width: 20px;
+            height: 20px;
+            font-size: 0.6rem;
+        }
+    
+        .contact div p {
+            font-size: 0.6rem;
+            font-family: 'Courier New', Courier, monospace;
+            width: 70%;
+            
+        }
+    
+        .education .title {
+            font-size: 1rem;
+            margin-top: 2%;
+        }
+    
+        .education div {
+            margin-bottom: 5%;
+        }
+        .education div h1 {
+            font-size: 0.6rem;
+            width: 100%;
+            margin-top: 2%;
+        }
+    
+        .education div h3 {
+            font-size: 0.5rem;
+        }
+        .education div p {
+            font-size: 0.4rem;
+        }
+        
+    
+        .skills .title {
+            font-size: 1rem;
+            margin-top: 2%;
+        }
+    
+    
+        .skills ul li {
+            margin-top: 3%;
+            margin-bottom: 3%;
+            font-size: 0.6rem;
+        }
+
+        .other-links .title {
+            font-size: 1rem;
+            margin-top: 2%;
+        }
+    
+        .other-links a {
+            font-size: 0.5rem;
+        }
+        .professional-profile h1 {
+            font-size: 1rem;
+            margin-top: 2%;
+        }
+    
+        .professional-profile p {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 0.6rem;
+        }
+
+        .experience h1 {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 1rem;
+            margin-top: 2%;
+        }
+    
+        
+    
+        .experience div h2 {
+            font-size: 0.8rem;
+        }
+    
+        .experience div h3 {
+            font-size: 0.75rem;
+        }
+    
+        .experience div p {
+            font-size: 0.6rem;
+        }
+      }
